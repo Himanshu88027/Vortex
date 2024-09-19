@@ -14,7 +14,7 @@ const isPublicRoutes = [
 
 const authPaths = [
   "/sign-in",
-  "/sign-up"
+  "/sign-up",
 ]
 
 export default middleware((req) => {
@@ -33,5 +33,5 @@ export default middleware((req) => {
 
 
 export const config = {
-  matcher: ["/sign-in", "/sign-up"]
+  matcher: ["/sign-in", "/sign-up","/u/:usermane"]
 }
